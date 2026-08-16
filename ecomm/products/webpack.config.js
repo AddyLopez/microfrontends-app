@@ -7,7 +7,7 @@ module.exports = {
     port: 8081,
   },
   plugins: [
-    new ModuleFederationPllugin({
+    new ModuleFederationPlugin({
       name: "products",
       filename: "remoteEntry.js",
       exposes: {
