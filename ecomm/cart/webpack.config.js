@@ -3,6 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 // remoteEntry.js lists different modules that can be loaded from the Cart project
 // CartDisplay is a descriptive alias
+// name property (and port) must match cart@http://localhost:8082/remoteEntry.js in container/webpack.config.js
 
 module.exports = {
   mode: "development",
@@ -16,6 +17,7 @@ module.exports = {
       exposes: {
         "./CartDisplay": "./src/index",
       },
+      shared: ["faker"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
