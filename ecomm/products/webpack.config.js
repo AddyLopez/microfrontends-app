@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 // remoteEntry.js lists different modules that can be loaded from the Products project
 // ProductsIndex is a descriptive alias
-// name property must match products@http://localhost:8081/remoteEntry.js in container/webpack.config.js
+// name property (and port) must match products@http://localhost:8081/remoteEntry.js in container/webpack.config.js
 
 module.exports = {
   mode: "development",
