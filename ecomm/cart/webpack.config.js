@@ -1,5 +1,8 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin"); // This plugin is to ensure that webpack bundle files (or script tags) are correctly inserted to public/index.html
+const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin"); // This plugin enables set up for a remote modules to integrate with a host
+
+// remoteEntry.js lists different modules that can be loaded from the Cart project
+// CartDisplay is a descriptive alias
 
 module.exports = {
   mode: "development",
