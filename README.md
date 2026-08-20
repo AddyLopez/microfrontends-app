@@ -21,7 +21,7 @@ To run the program locally, spin up servers in three separate terminals from the
 
 ### Secondary Technologies & Techniques
 
-Webpack Module Federation (plugin), Webpack HTML plugin, Diagrams.net (for visualizing microfrontends architecture), zsh (command line), Google Chrome Developer Tools Network tab monitoring while testing functionality, shared dependencies, and independence or integration of microfrontend apps, Faker (to populate fake data), asynchronous script loading via import function calls, conditional rendering of content based on an environment variable,
+Webpack Module Federation plugin; Webpack HTML plugin; Diagrams.net (for visualizing microfrontends architecture); zsh (command line); Google Chrome Developer Tools Console and Network tab monitoring while testing functionality, shared dependencies, and independence or integration of microfrontend apps; Faker (to populate fake data); asynchronous script loading via import function calls; and conditional rendering of content based on an environment variable.
 
 ### Course Attribution
 
