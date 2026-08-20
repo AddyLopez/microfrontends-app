@@ -13,7 +13,7 @@ To run the program locally, spin up servers in three separate terminals from the
 ## Learning Objectives Attained
 
 - To gain a better conceptual and practical understanding of how and why to implement microfrontends architecture.
-- To build the architecture with an informed understanding of the tradeoffs between build-time and run-time integrations.
+- To build the architecture with an informed understanding of the tradeoffs between build-time and run-time integrations. (Build-time integrations give the container access to the child app's source code before it is loaded in the browser, while run-time integrations give the container access to the child app's source code after it is loaded in the browser.)
 - To simulate how different development teams might be assigned to separate apps (e.g. products, cart, or container) in a real-life production environment.
 - To learn how to configure Webpack's HTML and Module Federation plugins in order to integrate remote microfrontends within a host container app while simultaneously maintaing the independence and integrity of remote microfrontends.
 - To practice debugging errors frequently encountered when using Webpack and when building microfrontends.
