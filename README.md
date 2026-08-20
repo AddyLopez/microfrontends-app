@@ -4,7 +4,7 @@
 
 An e-commerce app built with NodeJS, JavaScript, Webpack, and HTML to learn how to build microfrontends.
 
-The entire application integrates two independent, or remote, front-end applications--products and cart--within an encapsulating container, or host, front-end application at run-time. The emphasis is on higher-order questions of architectural structure and design, not on questions of visual style or content; that is, on the _how_ not the _what_. Accordingly, the app is not concerned with implementing the intricate functionality of an e-commerce app for a user. It is concerned with the internal organization of the code and on how all the parts relate to the whole, with the e-commerce content serving chiefly as a plausible use case for such an approach.
+The entire application integrates two independent, or remote, front-end applications--_products_ and _cart_--within an encapsulating _container_, or host, front-end application at run-time. The emphasis is on higher-order questions of architectural structure and design, not on questions of visual style or content; that is, on the _how_ not the _what_. Accordingly, the app is not concerned with implementing the intricate functionality of an e-commerce app for a user. It is concerned with the internal organization of the code and on how all the parts relate to the whole, with the e-commerce content serving chiefly as a plausible use case for such an approach.
 
 ## Usage
 
